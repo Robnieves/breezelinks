@@ -4,7 +4,7 @@ function getEmail (){
   document.querySelector("#title").innerHTML = "Click the Following Links";
 
 
-let adviceAddress = "https://www.breezechms.com/open/unsubscribe?email=" + email + "&blog=updates";
+let adviceAddress = "https://www.breezechms.com/open/unsubscribe?email=" + email + "&blog=advice";
 let updatesAddress = "https://www.breezechms.com/open/unsubscribe?email=" + email + "&blog=updates";
 
 console.log (adviceAddress);
